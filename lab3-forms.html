@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-US">
+ <head>
+    <meta charset="utf-8" />
+    <title>Coffee Order Form</title>
+</head>
+    <h1>Coffee Orders!!!</h1>
+<form action="https://www.w3schools.com/action_page.php" method="get">
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </p>
+    <p>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+    </p>
+<section>
+  <h2>Payment information</h2>
+  <p>
+    <label for="Coffee">
+      <span>Coffee type:</span>
+    </label>
+    <select id="coffee" name="Coffee-choice">
+      <option value="Lat">Latte</option>
+      <option value="Cap">Cappucino</option>
+      <option value="Frap">Frappucino</option>
+    </p>
+ </select>
+<fieldset>
+    <legend>Coffee cup size</legend>
+    <p>
+      <input type="radio" name="size" id="size_1" value="small" />
+      <label for="size_1">Small</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium" />
+      <label for="size_2">Medium</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_3" value="large" />
+      <label for="size_3">Large</label>
+    </p>
+ </fieldset>
+  <p>
+    <input type="checkbox" id="Extra_1" name="extra_Almond milk" value="Almond milk" />
+    <label for="Extra_1">Add almond milk</label>
+  </p>
+  <p>
+    <input type="checkbox" id="Extra_2" name="extra_espresso" value="espresso" />
+    <label for="Extra_2">Add espresso</label>
+  </p>
+   <p>
+    <input type="checkbox" id="Extra_3" name="extra_whip" value="Whipped Cream" />
+    <label for="Extra_3">Add whip</label>
+  </p>
+  <p>
+    <label for="msg">Special Instructions:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </p>
+  <p>
+        <button>Order!</button>
+  </p>
+</form>
